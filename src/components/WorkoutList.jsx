@@ -26,7 +26,13 @@ export default function WorkoutList({ workouts, onAdd, onSelect, onDelete }) {
                 onChange={e => setNewTitle(e.target.value)}
                 placeholder="Nuova scheda..."
             />
-            <button onClick={handleAdd}>Aggiungi</button>
+            <button
+                onClick={handleAdd}
+                className="bg-blue-500 text-white rounded px-3 py-1 hover:bg-blue-600 mt-3"
+            >
+                ➕ Aggiungi
+            </button>
+
         </div>
     );
 }

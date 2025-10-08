@@ -67,7 +67,7 @@ export default function WorkoutDetail({ workout, onBack, onUpdate }) {
                                 </button>
                             </div>
 
-                            {/* 👇 passa anche workout.exercises */}
+
                             <ExerciseProgress
                                 workoutId={workout.id}
                                 exercises={workout.exercises}
